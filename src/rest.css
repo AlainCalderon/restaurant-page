@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'MainFont';
+    src:url('./fonts/Sora-VariableFont_wght.ttf') format('truetype'), 
+        url('./fonts/main-font.woff') format('woff'),
+         url('./fonts/main-font.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    
+}
+@font-face{
+    font-family: 'TheBois';
+    src: url('./fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    font-family: 'MainFont';
+    background-color: #F8F8FF;
+}
+#content{
+    background-color: white;
+}
+
+
+.custom-link{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.custom-link:hover{
+    text-decoration:red;
+}
+.cust-title{
+    font-family: 'TheBois';
+   
+}
+.custom-text{
+    line-height: 2rem;
+}
